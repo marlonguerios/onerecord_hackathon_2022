@@ -1,0 +1,13 @@
+.customs-page {
+    display: grid;
+    grid-template-rows: 75px 1fr 25px;
+    grid-template-areas: 
+        "customsHeader",
+        "customsContent"
+        "customsFooter";
+}
+
+.customs-header {
+    grid-area: "customsHeader";
+}
+
